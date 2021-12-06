@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    background-image: url(./img/Фоновые\ элементы.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1240px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 40px;
+    /* min-width: 100vh; */
+}
+
+.text h4 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.food_card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.busket {
+    transition: .4s;
+}
+
+.busket:hover {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.sale {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 50px;
+}
+
+.food_card1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.text1 {
+    display: flex;
+    /* justify-content: end; */
+    flex-direction: column;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.text1 h4 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.text1 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sale1 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+
+.busket1 {
+    transition: .4s;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 370px;
+}
+
+.busket1:hover {
+    transform: scale(0.9);
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
