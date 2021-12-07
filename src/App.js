@@ -1,11 +1,17 @@
 import React from 'react'
 import './App.css';
-import Logo from './components/FooterComponent/Footer'
+import Footer from './components/FooterComponent/Footer'
+import { Container } from 'react-bootstrap';
+import About from './components/FooterComponent/About us'
+
 
 const App = () => {
   return (
     <div className="App">
-      <Logo />
+      <Container>
+        <About />
+        <Footer />
+      </Container>
     </div>
   );
 }
