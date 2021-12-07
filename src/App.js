@@ -3,10 +3,10 @@ import './App.css';
 import Footer from './components/FooterComponent/Footer'
 import { Container } from 'react-bootstrap';
 import Header from './components/Header/Header'
-import About from './components/FooterComponent/About-us/about';
 import Cart from './components/CartComponent/cart'
 import { Routes, Route } from 'react-router';
 import Home from './components/HomeComponent/Home';
+
 
 const App = () => {
   return (
