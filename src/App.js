@@ -3,12 +3,13 @@ import './App.css';
 import Basket from './components/Basket_Components/Basket';
 import Order from './components/Order/Order';
 import Similar from './components/Similar/Similar';
+import Carusel from './components/Carusel/HomeSlider';
 import { Container } from 'react-bootstrap';
 const App = () => {
   return (
     <div className="App">
       <Container>
-        <h1>Корзина</h1>
+        {/* <h1>Корзина</h1>
       <Basket />
       <Basket />
       <Basket />
@@ -21,7 +22,8 @@ const App = () => {
       <Similar/>
       <Similar/>
       <Similar/>
-      </div>
+      </div> */}
+      <Carusel/>
       </Container>
     </div>
   );

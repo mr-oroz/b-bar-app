@@ -1,0 +1,50 @@
+.slider-mini {
+    position: relative;
+    width: 1240px;
+}
+.Slider {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+}
+.backround-img {
+    width: 100%;
+}
+.left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.left {
+    left: -8%;
+}
+.right {
+    right: -8%;
+}
+.Slider_img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inst-img {
+    margin: 90px 50px;
+}
+/* .Onephoto img {
+    position: relative;
+}
+
+.Twophoto {
+    position: absolute;
+}
+
+.Threephoto {
+    position: absolute;
+}
+
+.Fourphoto {
+    position: absolute;
+} */
