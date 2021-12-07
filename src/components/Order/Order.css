@@ -1,0 +1,13 @@
+.All_Price p{
+    height: 15px;
+}
+.All_Price{
+    margin-top: 80px;
+}
+.All_Price button{
+    padding: 7px 20px;
+    background-color: rgba(10, 0, 0, 0.1);
+    color: rgb(180, 156, 156);
+    border: 1px solid gray;
+    margin-top: 20px;
+}
