@@ -1,0 +1,49 @@
+.logoo{
+    width: 60px;
+    height: 60px;
+}
+.icon_exit{
+    width: 10px;
+    height: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+}
+.exit{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.exiti{
+    width: 15px;
+    height: 15px;
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.market_logo{
+    width: 20px;
+    height: 20px;
+}
+.exirt{
+    margin-left: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    cursor: pointer;
+}
