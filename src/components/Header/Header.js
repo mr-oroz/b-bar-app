@@ -9,8 +9,8 @@ const Header = () => {
         <div className={s.header}>
             <div className={s.menu}>
                 <Link className={s.a} to='/'>Меню</Link>
-                <a>Акции</a>
-                <a>О нас</a>
+                <Link className={s.a} to='/stock'>Акции</Link>
+                <Link className={s.a} to='/about'>О нас</Link>
             </div>
             <div className={s.contact}>
                 <img src={logo} alt="" className={s.logoo} />
