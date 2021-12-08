@@ -1,11 +1,11 @@
 import React from 'react';
 import './Stock.css';
-import stake from './img/stake.png'
-import file from './img/file.png'
-import baby from './img/baby.png'
-import burger from './img/burger.png'
-import salmon from './img/salmon.png'
-import buffalo from './img/buffalo.png'
+import stake from '../../Assets/img/stake.png'
+import file from '../../Assets/img/file.png'
+import baby from '../../Assets/img/baby.png'
+import burger from '../../Assets/img/burger.png'
+import salmon from '../../Assets/img/salmon.png'
+import buffalo from '../../Assets/img/buffalo.png'
 
 const Stock = () => {
     return (

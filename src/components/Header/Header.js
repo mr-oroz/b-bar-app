@@ -1,6 +1,6 @@
 import React from "react";
 import s from './Header.module.css';
-import logo from '../../Assets/img/Лого.png';
+import logo from '../../Assets/img/Logo.png';
 import exit from '../../Assets/img/exit.png';
 import market from '../../Assets/img/Vector.png';
 import {Link} from 'react-router-dom'
