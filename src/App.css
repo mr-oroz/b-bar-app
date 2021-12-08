@@ -1,0 +1,11 @@
+.App{
+    background: black;
+    color: rgb(245, 238, 238);
+}
+.Simil {
+    display: flex;
+    justify-content: space-between;
+}
+.h3 h3{ 
+    margin-top: 180px;
+}

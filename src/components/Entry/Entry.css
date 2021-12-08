@@ -1,0 +1,45 @@
+.Entry_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.vhod {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.Entry input::placeholder {
+    color: gray;
+    font-size: 14px;
+}
+
+.Entry input {
+    background-color: black;
+    width: 600px;
+    height: 50px;
+    border-color: white;
+    color: white;
+    padding: 2px 5px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.remember{
+    display: flex;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
