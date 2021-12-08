@@ -10,14 +10,14 @@
 .Price{
     display: flex;
     justify-content: space-around;
-    width: 80vh;
+    width: 450px;
 }
 .Logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70vh;
-    height: 15vh;
+    width: 440px;
+    height: 100px;
 }
 .Price p {
     color: rgb(180, 156, 156);
@@ -26,7 +26,7 @@
     text-align: center;
 }
 .Btn button{
-    /* margin-left: 120px; */
+    margin-left: 120px;
     border: none;
     background: none;
     color: rgb(240, 230, 230);
