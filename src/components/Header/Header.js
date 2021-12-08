@@ -1,9 +1,10 @@
 import React from "react";
 import s from './Header.module.css';
-import logo from '../../Assets/img/Logo.png';
+import logo from '../../Assets/img/Лого.png';
 import exit from '../../Assets/img/exit.png';
 import market from '../../Assets/img/Vector.png';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
 const Header = () => {
     return (
         <div className={s.header}>
@@ -14,7 +15,7 @@ const Header = () => {
             </div>
             <div className={s.contact}>
                 <img src={logo} alt="" className={s.logoo} />
-                <a>Контакты</a>
+                <Link className={s.a} to='/contacts'>Контакты</Link>
                 <div className={s.exit}>
                     <img src={exit} alt="" className={s.exiti} />
                     <a className={s.exirt}>Войти</a>

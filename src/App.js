@@ -8,7 +8,9 @@ import { Routes, Route } from 'react-router';
 import Home from './components/HomeComponent/Home';
 import Stock from './components/Stock/Stock';
 import About from './components/FooterComponent/About-us/about'
+import Contacts from './components/Contacts/Contacts';
 
+  
 const App = () => {
   return (
     <div className="App">
@@ -19,11 +21,10 @@ const App = () => {
           <Route exact path='/cart' element={<Cart />} />
           <Route  exact path='/about' element={<About />}/>
           <Route exact path='/stock' element={<Stock />} />
+          <Route exact path='/contacts' element={<Contacts/>}/>
         </Routes>
         <Footer />
       </Container>
-
-
     </div>
   );
 }
