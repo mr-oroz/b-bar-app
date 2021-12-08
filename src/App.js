@@ -1,10 +1,12 @@
 import React from 'react'
 import './App.css';
-
+import CardComponent from './components/CardComponents/Card';
+import Menu from './components/MenuComponent/Menu';
 const App = () => {
   return (
     <div className="App">
-        hello
+      {/* <CardComponent/> */}
+      <Menu />
     </div>
   );
 }
