@@ -1,0 +1,24 @@
+.Sim_img img {
+    margin-top: 20px;
+    height: 181px;
+    width: 272px;
+}
+.Sim_btn button{
+    padding: 7px 13px;
+    background-color: rgba(10, 0, 0, 0.1);
+    color: rgb(180, 156, 156);
+    border: 1px solid gray;
+    font-size: 12px;
+}
+.Sim p{
+    color: rgb(180, 156, 156);
+}
+.p{
+    width: 275px;
+}
+.Sim_h6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}

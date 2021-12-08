@@ -15,7 +15,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000;
     width: 100%;
     height: 100px;
     color: #fff;
@@ -50,6 +49,8 @@
     color: #fff;
     text-decoration: none;
 }
-a{
+.a{
     cursor: pointer;
+    color: #fff;
+    text-decoration: none;
 }
