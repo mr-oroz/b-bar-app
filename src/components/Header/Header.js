@@ -18,7 +18,7 @@ const Header = () => {
                 <Link className={s.a} to='/contacts'>Контакты</Link>
                 <div className={s.exit}>
                     <img src={exit} alt="" className={s.exiti} />
-                    <Link to='/auth/sigin' className={s.exirt}>Войти</Link>
+                    <Link to='/auth/signin' className={s.exirt}>Войти</Link>
                 </div>
                 <Link to='/cart'>
                     <img src={market} alt="" className={s.market_logo} />

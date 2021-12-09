@@ -11,24 +11,21 @@ const Slider = () => {
                     <img
                         className="d-block w-100"
                         src={photo}
-                        alt="First slide"
+                        alt=""
                     />
-                    
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={photo}
-                        alt="Second slide"
+                        alt=""
                     />
-
-                    
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={photo}
-                        alt="Third slide"
+                        alt=""
                     />
                 </Carousel.Item>
             </Carousel>
