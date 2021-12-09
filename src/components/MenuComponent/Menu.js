@@ -6,7 +6,7 @@ const Menu = () => {
     return (
         <div>
             <Container>
-                <Navbar expand="lg" variant="dark" bg="dark">
+                <Navbar expand="lg" variant="dark">
                     <Container>
                         <Navbar.Brand href="#">Меню</Navbar.Brand>
                         <Navbar.Brand href="#">Новинки</Navbar.Brand>

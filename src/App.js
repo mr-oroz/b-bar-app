@@ -10,7 +10,8 @@ import Stock from './components/Stock/Stock';
 import About from './components/FooterComponent/About-us/about'
 import Contacts from './components/Contacts/Contacts';
 import Registraction from './components/Auth/Registraction/Registraction';
-import SignIn from './components/Auth/Signin/Signin'
+import SignIn from './components/Auth/Signin/Signin';
+import Auth from './components/Auth/Auth';
 const App = () => {
   return (
     <div className="App">
@@ -22,9 +23,13 @@ const App = () => {
           <Route exact path='/about' element={<About />} />
           <Route exact path='/stock' element={<Stock />} />
           <Route exact path='/contacts' element={<Contacts />} />
-          <Route exact path='/auth/signin' element={<SignIn />} />
-          <Route exact path='/auth/register' element={<Registraction />} />
         </Routes>
+        <Auth>
+          <Routes>
+            <Route exact path='/auth/signin' element={<SignIn />} />
+            <Route exact path='/auth/register' element={<Registraction />} />
+          </Routes>
+        </Auth>
         <Footer />
       </Container>
     </div>

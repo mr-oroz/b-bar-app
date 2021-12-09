@@ -43,3 +43,11 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+.auth-text a {
+    color: gray;
+}
+
+.auth-text a.active {
+    color: white !important;
+}
